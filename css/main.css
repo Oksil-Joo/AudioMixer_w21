@@ -9,7 +9,27 @@
 body {
   font-family: arial, helvetica, sans-serif; font-size: 16px;
 }
-
+audio {
+  display: block;
+}
+/*an em is a relative unit of mesurement based on the body font size*/
+/* 1 em = 16px */
 .hidden {
   display: none;
+}
+
+.audio-controls {
+  margin-top: 1.5em; border-top: thin solid #333;
+}
+
+.audio-controls button {
+  padding: 0.5em 1em; margin-top: 0.5em;
+  background-color: green;
+  color: white;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.track-ref {
+  display: inline-block; cursor: pointer; padding: 1em;
 }
